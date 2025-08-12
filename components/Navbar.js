@@ -68,7 +68,7 @@ const Navbar = () => {
               rel="noreferrer noopener"
               key={name}
             >
-              <Icon className="h-6 w-6 text-white hover:scale-125 hover:bg-[rgb(112, 66, 248)]" />
+              <Icon className="h-6 w-6 text-white hover:scale-125" />
             </Link>
           ))}
         </div>
@@ -108,7 +108,7 @@ const Navbar = () => {
                 rel="noreferrer noopener"
                 key={name}
               >
-                <Icon className="h-8 w-8 text-white" />
+                <Icon className="h-8 w-8 text-white hover:scale-125" />
               </Link>
             ))}
           </div>
