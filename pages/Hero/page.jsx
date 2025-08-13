@@ -4,7 +4,7 @@ import { Globe } from "@/components/magicui/globe";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between min-h-screen w-full px-8 md:px-16 bg-transparent z-0">
+    <section className="flex flex-col md:flex-row items-center justify-between min-h-screen w-full px-8 md:px-16 bg-transparent z-50 bg-">
       {/* Left Side - Big Globe */}
       <div className="flex items-center justify-center w-full md:w-1/2">
         <Globe className="w-[550px] h-[550px]" />
@@ -20,9 +20,15 @@ export default function Hero() {
           Microservices Enthusiast. I create modern, scalable, and
           high-performing applications that deliver results.
         </p>
-        <button className="px-6 py-3 bg-amber-500 hover:bg-amber-600 text-black font-semibold rounded-lg shadow-lg transition-all">
-          View My Work
-        </button>
+
+        <div className="flex flex-row gap-4">
+          <button className="px-6 py-3 bg-amber-500 hover:bg-amber-600 text-black font-semibold rounded-lg shadow-lg transition-all cursor-pointer">
+            View My Work
+          </button>
+          <button className="px-6 py-3 bg-blue-400 hover:bg-blue-500 text-black font-semibold rounded-lg shadow-lg transition-all cursor-pointer">
+            Download Resume
+          </button>
+        </div>
       </div>
     </section>
   );

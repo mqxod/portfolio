@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import StarsCanvas from "../components/StarsCanvas";
-import Hero from "../Hero/page";
+import Hero from "../pages/Hero/page";
 
 export default function Home() {
   return (

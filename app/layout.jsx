@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Poppins } from "next/font/google";
 import CustomCursor from "../components/CustomCursor";
+import { icons } from "lucide-react";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -10,7 +11,10 @@ const poppins = Poppins({
 export const metadata = {
   title: "Portfolio - Maqsood",
   description:
-    "Explore the portfolio of Maqsood Ahmed, a passionate Fullstack Developer based in Islamabad. Showcasing modern web projects, coding expertise, and creative problem-solving across MERN stack, ReactJS, and more."
+    "Explore the portfolio of Maqsood Ahmed, a passionate Fullstack Developer based in Islamabad. Showcasing modern web projects, coding expertise, and creative problem-solving across MERN stack, ReactJS, and more.",
+  icons: {
+    icon: "/favicon.ico"
+  }
 };
 
 export default function RootLayout({ children }) {
