@@ -88,7 +88,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen &&
-        <div className="absolute top-[65px] left-0 w-full min-h-screen bg-[#030014] p-8 flex flex-col items-center text-gray-300 md:hidden ">
+        <div className="top-[65px] left-0 w-full min-h-screen bg-[#030014] p-8 flex flex-col items-center text-gray-300 md:hidden ">
           {/* Links */}
           <div className="flex flex-col items-center gap-8">
             {NAV_LINKS.map(link =>
